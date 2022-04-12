@@ -1,1 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T05:08:29.462Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" version="17.4.3" etag="juB2zHeWFE1QQ9BhbqQt" type="github"><diagram id="WqCIK7UzJsmCoodNQy3m">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-12T05:22:53.470Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="m_hsy9yTwcqXL12tcit-" version="17.4.3" type="github">
+  <diagram id="WqCIK7UzJsmCoodNQy3m" name="Page-1">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-1" value="Upload Image Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="490" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2WdRGdRmhD0eWnHtVYpt-4" target="2WdRGdRmhD0eWnHtVYpt-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2WdRGdRmhD0eWnHtVYpt-4" target="2WdRGdRmhD0eWnHtVYpt-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-4" value="" style="image;html=1;image=img/lib/clip_art/computers/iMac_128x128.png" vertex="1" parent="1">
+          <mxGeometry y="460" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="530" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1.056;exitY=0.517;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2WdRGdRmhD0eWnHtVYpt-5" target="2WdRGdRmhD0eWnHtVYpt-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="570" as="sourcePoint" />
+            <mxPoint x="192.54999999999995" y="599" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="73" y="570" />
+              <mxPoint x="193" y="570" />
+              <mxPoint x="193" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2WdRGdRmhD0eWnHtVYpt-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-10" value="Client upload Image/Video" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="400" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-11" value="Client upload Image/Video" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="580" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-12" value="Download Image Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-15" value="Download Image/Video" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="640" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-16" value="Download Image/video" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="780" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-17" value="" style="image;html=1;image=img/lib/clip_art/computers/iMac_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="10" y="650" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-18" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="720" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-20" value="Upload Video Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="410" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.956;entryY=0.208;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2WdRGdRmhD0eWnHtVYpt-12" target="2WdRGdRmhD0eWnHtVYpt-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="590" as="sourcePoint" />
+            <mxPoint x="410" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="2WdRGdRmhD0eWnHtVYpt-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="560" as="sourcePoint" />
+            <mxPoint x="125" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="2WdRGdRmhD0eWnHtVYpt-12" target="2WdRGdRmhD0eWnHtVYpt-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="730" as="sourcePoint" />
+            <mxPoint x="87.36000000000001" y="746.6400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-27" value="Download Video Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="770" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="793.64" as="sourcePoint" />
+            <mxPoint x="80" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" target="2WdRGdRmhD0eWnHtVYpt-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="790" as="sourcePoint" />
+            <mxPoint x="90" y="766.3636363636363" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
