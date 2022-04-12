@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T05:22:53.470Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="m_hsy9yTwcqXL12tcit-" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T05:32:03.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="gDder7-l03GQrpefWz3P" version="17.4.3" type="github">
   <diagram id="WqCIK7UzJsmCoodNQy3m" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2WdRGdRmhD0eWnHtVYpt-1" target="2WdRGdRmhD0eWnHtVYpt-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2WdRGdRmhD0eWnHtVYpt-1" value="Upload Image Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="490" width="150" height="60" as="geometry" />
         </mxCell>
@@ -91,6 +94,81 @@
             <mxPoint x="220" y="790" as="sourcePoint" />
             <mxPoint x="90" y="766.3636363636363" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-31" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="430" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-32" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="500" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.022;entryY=0.267;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="2WdRGdRmhD0eWnHtVYpt-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="445" as="sourcePoint" />
+            <mxPoint x="535" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-36" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="640" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="2WdRGdRmhD0eWnHtVYpt-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="700" as="sourcePoint" />
+            <mxPoint x="518.6800000000001" y="701.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-38" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="750" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="800" as="sourcePoint" />
+            <mxPoint x="550" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-40" value="Store in nosql DB" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="390" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-41" value="Store in nosql DB" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="490" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-42" value="retrieve from nosql DB" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="620" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-43" value="retreive from nosql DB" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="740" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-44" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="860" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-45" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="950" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-47" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1040" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-48" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="255" y="930" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-51" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="905" as="sourcePoint" />
+            <mxPoint x="250" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="2WdRGdRmhD0eWnHtVYpt-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="85" y="915" as="sourcePoint" />
+            <mxPoint x="250" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.85;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="2WdRGdRmhD0eWnHtVYpt-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="1068.4615384615386" as="sourcePoint" />
+            <mxPoint x="250" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2WdRGdRmhD0eWnHtVYpt-54" value="User relationships stored in RDBMS" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="875" width="160" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
